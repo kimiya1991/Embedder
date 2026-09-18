@@ -1,0 +1,23 @@
+## photosynthesis
+Photosynthesis is the process plants, algae, and some bacteria use to convert light energy into chemical energy. Chlorophyll in chloroplasts absorbs mostly blue and red wavelengths. Water is split, oxygen is released, and carbon dioxide is fixed into sugars through the Calvin cycle. Light-dependent reactions happen in thylakoid membranes; the Calvin cycle runs in the stroma. Without photosynthesis, Earth's atmosphere would lack free oxygen and most food webs would collapse.
+
+## paris-history
+Paris grew from a settlement of the Parisii tribe on the Île de la Cité. The Romans called it Lutetia. In the Middle Ages it became a royal capital, later transformed by Haussmann's wide boulevards in the 19th century. Landmarks include Notre-Dame, the Louvre, and the Eiffel Tower, completed in 1889 for the Exposition Universelle. The Seine divides the Left Bank, historically associated with students and writers, from the Right Bank of commerce and palaces.
+
+## python-programming
+Python is a high-level language known for readable syntax and a huge standard library. It is widely used for scripting, web backends, data science, and machine learning. Indentation defines blocks instead of braces. Popular libraries include NumPy, pandas, FastAPI, and PyTorch. CPython is the main implementation. Virtual environments isolate project dependencies so different apps can use different package versions without conflicts.
+
+## black-holes
+A black hole is a region of spacetime where gravity is so strong that nothing, not even light, can escape from inside the event horizon. Stellar-mass black holes form when massive stars collapse. Supermassive black holes sit at galaxy centers; Sagittarius A* is the one in the Milky Way. Hawking radiation is a theoretical process by which black holes slowly lose mass. The 2019 Event Horizon Telescope image of M87* showed a bright ring around a dark shadow.
+
+## mediterranean-cooking
+Mediterranean cooking emphasizes olive oil, vegetables, legumes, fish, herbs, and modest amounts of meat. Typical dishes include Greek salad, hummus, grilled sardines, and ratatouille. Meals are often shared and paced slowly. The pattern is associated in nutrition research with lower cardiovascular risk. Garlic, lemon, oregano, and tomatoes appear across many coastal cuisines from Spain to Lebanon.
+
+## vector-databases
+Vector databases store embedding vectors and run nearest-neighbor search so applications can retrieve semantically similar items. Common algorithms include HNSW graphs and IVF indexes. Products such as Pinecone, Weaviate, Qdrant, and pgvector implement this idea. They are a core piece of retrieval-augmented generation (RAG), where a query is embedded and the closest document chunks are fed to a language model.
+
+## olympic-games
+The modern Olympic Games began in Athens in 1896, inspired by ancient contests at Olympia. The International Olympic Committee chooses host cities. Summer sports include athletics, swimming, and gymnastics; Winter Games cover skiing, skating, and ice hockey. The Olympic rings represent five inhabited continents. Athletes compete as national teams, and the host nation organizes ceremonies, venues, and the Olympic Village.
+
+## coral-reefs
+Coral reefs are built by colonies of tiny animals that secrete calcium carbonate skeletons. They need warm, clear, shallow water and live in a symbiotic relationship with zooxanthellae algae. Reefs protect coastlines and support enormous biodiversity. Rising sea temperatures cause bleaching, when corals expel their algae and may die. Conservation efforts include marine protected areas, restoration nurseries, and reducing nutrient pollution.
