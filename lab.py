@@ -473,9 +473,6 @@ def download_local_models() -> None:
 
 
 def install_sentence_transformers() -> tuple[bool, str]:
-
-
-def install_sentence_transformers() -> tuple[bool, str]:
     torch = subprocess.run(
         [sys.executable, "-m", "pip", "install", "torch", "--index-url", "https://download.pytorch.org/whl/cpu"],
         capture_output=True,
