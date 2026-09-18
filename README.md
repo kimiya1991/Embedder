@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Embedder Lab
 
 Compare embedding models on `sample.txt`. Each `##` heading is one chunk. Labeled questions measure whether a model retrieves the right section (Recall@k, MRR, nDCG). Sentence pairs score STS.
@@ -48,3 +49,7 @@ streamlit run ui.py
 Or `docker compose up --build` and open http://localhost:8701.
 
 `lab.py` holds embedders and metrics. `ui.py` is the UI. `python lab.py minilm` runs a model from the command line.
+=======
+# Embedder
+An Embedder Lab is all you need
+>>>>>>> 5ecfa5df7f88df5d3bff9628917b7efdb686fb8a
