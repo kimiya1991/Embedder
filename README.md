@@ -23,8 +23,22 @@ Needs a key in `.env` or the **API keys** tab:
 
 Extra setup:
 
-- MPNet base v2 (install `sentence-transformers` in the UI)
+- MPNet base v2 (`sentence-transformers`)
 - Ollama nomic-embed-text (local Ollama server)
+
+Download local FastEmbed weights in PowerShell (use Docker if that is how you run the UI):
+
+```powershell
+docker compose exec app python lab.py download
+```
+
+Without Docker:
+
+```powershell
+.\.venv\Scripts\python lab.py download
+```
+
+Then run the UI. MiniLM, BGE, Nomic, and Jina will already be cached.
 
 ```bash
 pip install -r requirements.txt

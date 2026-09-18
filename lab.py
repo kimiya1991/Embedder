@@ -456,6 +456,25 @@ def reset_embedders() -> None:
     _CATALOG = None
 
 
+def download_local_models() -> None:
+    for item in all_embedders():
+        if item.provider != "fastembed" or not item.is_configured():
+            continue
+        print(f"Downloading {item.name} ({item.model})...", flush=True)
+        item.embed(["warmup"], input_type="document")
+        print(f"  ready  dim={item.dimensions}", flush=True)
+    mpnet = get_embedder("mpnet")
+    if mpnet.is_configured():
+        print("Downloading MPNet...", flush=True)
+        mpnet.embed(["warmup"], input_type="document")
+        print(f"  ready  dim={mpnet.dimensions}", flush=True)
+    else:
+        print("Skip MPNet (package not installed).")
+
+
+def install_sentence_transformers() -> tuple[bool, str]:
+
+
 def install_sentence_transformers() -> tuple[bool, str]:
     torch = subprocess.run(
         [sys.executable, "-m", "pip", "install", "torch", "--index-url", "https://download.pytorch.org/whl/cpu"],
@@ -653,6 +672,9 @@ if __name__ == "__main__":
     if not wanted:
         for item in all_embedders():
             print(f"{item.id:18} {'ready' if item.is_configured() else 'need-key':8} {item.name}")
+        raise SystemExit(0)
+    if wanted == ["download"]:
+        download_local_models()
         raise SystemExit(0)
     data = load_dataset()
     for embedder_id in wanted:
