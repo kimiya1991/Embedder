@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Embedder Lab
 
 Compare embedding models on `sample.txt`. Each `##` heading is one chunk. Labeled questions measure whether a model retrieves the right section (Recall@k, MRR, nDCG). Sentence pairs score STS.
